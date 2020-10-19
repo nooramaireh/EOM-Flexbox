@@ -1,0 +1,107 @@
+.bci-logo{
+    display: flex;
+    justify-content: space-between;  
+    width:100%
+}
+.logo{
+    max-width: 100px;
+}
+.bci-group-logo{
+    width: 100%;
+}
+.dropbtn {
+    background-color: white;
+    color: #007bff;
+    padding: 12px 14px;
+    font-size: 14px;
+    border: 1px solid #007bff;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: #007bff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+  
+  .select-language:hover .dropdown-content {
+    display: block;
+  }
+  
+  .select-language:hover .dropbtn {
+    background-color: #007bff;
+    color:white;
+  }
+
+.eom-main{
+    padding: 20px;
+}
+.eom-header{
+    display: flex;
+    justify-content: space-between;  
+}
+.eom-month{
+    color:#007bff;
+}
+.eom-card{
+    /* display: flex; */
+    flex-direction: column;
+    background-color:#f5f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    /* width: 100%; */
+}
+.eom-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.eom-info{
+    margin-left: 5px;
+}
+.eom-profile{
+    display: flex;
+    align-items: center;
+}
+.eom-job{
+    color:#007bff;
+}
+.eom-branch{
+    color:#007bff;
+}
+.eom-pic{ 
+    width: 100%;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2), 0 8px 15px 0 rgba(0, 0, 0, 0.10);
+}
+.eom-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.eom-arabic-desc{
+    direction: rtl;
+}
+.eom-english-desc , .eom-arabic-desc{
+    text-align: justify; 
+    padding:0 20px;
+}
+@media (max-width : 600px){
+    .eom-english-desc{
+        display: flex;
+        flex-grow: 2;
+          } 
+
+
+}
